@@ -1,0 +1,18 @@
+@font-face { 
+    font-family AvenirHeavy;
+    src url(..fontsavenirAvenirHeavy.eot);
+    src url(..fontsavenirAvenirHeavy.eot#iefix)format(embedded-opentype),
+    url(..fontsavenirAvenirHeavy.woff) format(woff),
+    url(..fontsavenirAvenirHeavy.ttf) format(truetype);
+    font-style normal;
+    font-weight 900;
+}
+@font-face { 
+    font-family AvenirMedium;
+    src url(..fontsavenirAvenirMedium.eot);
+    src url(..fontsavenirAvenirMedium.eot#iefix)format(embedded-opentype),
+    url(..fontsavenirAvenirMedium.woff) format(woff),
+    url(..fontsavenirAvenirMedium.ttf) format(truetype);
+    font-style normal;
+    font-weight 500;
+}
