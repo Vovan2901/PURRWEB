@@ -14,21 +14,14 @@
 <!-- HEADER -->
     <header class="header">
         <div class="container">
-            <div class="header__inner">
+            <section class="header__inner">
                <img src="img/logo.png" class="logo__cube"  alt="">
                     <span class="logo" >NoTab</span>
-                    <div class="autorise">
-               <svg class="pep" viewBox="0 0 26 25">
-                
-                        <g><path d="M13.0018 0C5.82117 0 0 5.59437 0 12.4952C0 19.396 5.82117 24.9904 13.0018 24.9904C13.3935 24.9904 13.7837 24.9735 14.172 24.94C14.533 24.9088 14.8909 24.8613 15.246 24.8017L15.3825 24.7785C21.9843 23.5944 26.5618 17.7733 25.9443 11.3463C25.3268 4.91937 19.7176 0.00203372 13.0018 0V0ZM11.9572 24.1133H11.9265C11.5894 24.0846 11.2549 24.0413 10.9233 23.9857C10.9042 23.9825 10.8852 23.9805 10.8665 23.977C10.5423 23.9213 10.2215 23.8521 9.9039 23.7714L9.82708 23.7525C9.51727 23.6717 9.21085 23.578 8.90887 23.4739C8.87755 23.4631 8.84602 23.4535 8.8147 23.4423C8.51865 23.3378 8.22789 23.2207 7.94157 23.094C7.90602 23.0787 7.87047 23.0641 7.83491 23.0478C7.5541 22.9229 7.27878 22.7822 7.00876 22.6341C6.97067 22.6134 6.93216 22.5926 6.89406 22.5721C6.62827 22.423 6.36862 22.2632 6.11383 22.0944C6.07532 22.0685 6.03638 22.0435 5.99808 22.0177C5.74773 21.8471 5.50374 21.6659 5.26609 21.4763L5.2007 21.4214V17.9098C5.20388 15.3806 7.33634 13.3313 9.96802 13.3282H16.0355C18.6672 13.3313 20.7996 15.3806 20.8028 17.9098V21.4218L20.7453 21.468C20.503 21.6624 20.2543 21.8463 19.9989 22.0199C19.965 22.0427 19.9307 22.0645 19.8971 22.0869C19.6393 22.2589 19.3752 22.4208 19.1048 22.5729C19.0709 22.5918 19.0362 22.6097 19.0026 22.6284C18.7285 22.7783 18.4498 22.9199 18.1656 23.0474C18.1331 23.062 18.1003 23.0756 18.0672 23.0891C17.7786 23.217 17.4853 23.3347 17.1871 23.4401C17.1575 23.4507 17.1277 23.4598 17.1004 23.4698C16.7969 23.5743 16.4892 23.6689 16.1777 23.75L16.103 23.7679C15.7849 23.8487 15.4639 23.9182 15.1393 23.9741C15.1207 23.9774 15.1021 23.9796 15.0834 23.9825C14.7514 24.0382 14.4164 24.0815 14.0791 24.1104H14.0484C13.7018 24.1391 13.3549 24.1545 13.0039 24.1545C12.6528 24.1545 12.3032 24.1419 11.9572 24.1133ZM21.6696 20.6496V17.9098C21.666 14.9208 19.1456 12.4987 16.0355 12.4952H9.96802C6.85788 12.4987 4.33752 14.9208 4.33392 17.9098V20.6492C-0.333932 16.0707 -0.281874 8.72996 4.45031 4.21286C9.18249 -0.304042 16.821 -0.304042 21.5532 4.21286C26.2854 8.72996 26.3375 16.0707 21.6696 20.6492V20.6496Z" />
-<path d="M13.0016 3.33203C10.608 3.33203 8.66772 5.19675 8.66772 7.4971C8.66772 9.79744 10.608 11.6622 13.0016 11.6622C15.3952 11.6622 17.3356 9.79744 17.3356 7.4971C17.333 5.19777 15.3942 3.33447 13.0016 3.33203ZM13.0016 10.8291C11.0867 10.8291 9.53451 9.33741 9.53451 7.4971C9.53451 5.65678 11.0867 4.16504 13.0016 4.16504C14.9166 4.16504 16.4688 5.65678 16.4688 7.4971C16.4667 9.3364 14.9155 10.8271 13.0016 10.8291Z" /></g>
-                
-                   
-               </svg>
-                   
+               <img src="img/login.png" class="pep" width="26" height="25"
+                   alt="">
                  <span class="login" >Login</span>   
-                   </div>
-            </div>
+                 
+            </section>
         </div>
     </header>
     
@@ -38,7 +31,7 @@
          <div class="container">
              <section class="intro__inner">
                 <img src="img/bg-dec/r.v1.png" alt="" class="vector1">
-                    <img src="img/screen/screen1.webp" alt="" class="screen__one" >
+                 <img src="img/screen/screen1.png" alt="" class="screen__one">
              <h1 class="intro__title">
                  A platform <br />that works smarter</h1>
                  <img src="img/bg-dec/b.e1.png" alt="" class="ellipse1" width="125" height="125" >
@@ -53,55 +46,57 @@
                     </div>
                     </article>
                 </div>
+             
+                </div>
     </main>
 
     
 <!-- PARTNER -->
-<div class="container">
+<main class="container">
     <div class="part">
-        <article class="part__border" >
+        <div class="part__border" >
             <h3 class="part__title">Would like to become<br>
                 a member, please<br> contact us</h3>
             <h6 class="part__subtitle" >support@notab.com</h6>
-        </article>
-        <article class="part__border" >
+        </div>
+        <div class="part__border" >
         <h3 class="part__title">Already a partner? </h3>
             <h6 class="part__subtitle" >Login</h6>
-        </article>
+        </div>
     </div>
-</div>
+</main>
 
 <!-- OUR MISSION -->
-<div class="ourmission">
-    <img src="img/screen/screen2.webp" class="screen__two" alt="">
-    <section class="ourmission__text">
+<main class="ourmission">
+    <img src="img/screen/screen2.png" class="screen__two" alt="">
+    <div class="ourmission__text">
         <h2 class="ourmission__title">Our mission and vision
             <img src="img/bg-dec/r.e.png" alt="" class="ellipse2">
         </h2>
         <a class="ourmission__subtitle">While technology is our sweet spot, we’ve developed our vision alongside
             our customers to ensure your everyday problems are solved through simplistic tools. And as your business grows, we’ll grow right alongside with you. </a>
-    </section>
-</div>
+    </div>
+</main>
 
 <!-- BARMEN -->
-<div class="bar">
+<main class="bar">
     <div class="container">
-        <article class="bar__text">
+        <div class="bar__text">
             <h2 class="bar__title">ID Scanner</h2>
             <a class="bar__subtitle">Scan, verify, and collect data on each person that walks through your door
                 to humanize your data. You also get
                 a digital 86 list as well as a citywide ban list to keep your venue safe.</a>
-        </article>
+        </div>
         <div class="bar__screens">
-          <img src="img/screen/screen3.webp" alt="" class="screen__three">
-          <img src="img/screen/screen4.webp" alt="" class="screen__three">
+          <img src="img/screen/screen3.png" alt="" class="screen__three">
+          <img src="img/screen/screen4.png" alt="" class="screen__three">
         </div>
     </div>
-</div>
+</main>
 
 
 <!-- TOOLS -->
-<div class="tools">
+<main class="tools">
     <div class="container">
         <div class="tool__content">
         <div class="tools__text">
@@ -118,12 +113,12 @@
         <img src="img/tools/tool6.png" class="tool6" alt="">
         <img src="img/tools/tool7.png" class="tool7" alt="">
         </div>
-        </div>
     </div>
-</div>
+    </div>
+</main>
 
 <!-- QR -->
-<div class="qr">
+<main class="qr">
     <div class="dj">
         <div class="container">  
             <div class="dj__content">
@@ -140,17 +135,17 @@
             <img src="img/coctail.png" alt="" class="coctail__background">
             <img src="img/bg-dec/Nightlife.png" alt="" class="nightlife">
             <div class="coctail__screens">
-            <img src="img/screen/screen5.webp" alt="" class="screen5">
+            <img src="img/screen/screen5.png" alt="" class="screen5">
             <img src="img/screen/screen6.png" alt="" class="screen6">
             </div>
         </div>
-</div>
+    </main>
 
 
 
 
 <!-- GENERATE -->
-<div class="generate">
+<main class="generate">
     <div class="container">
     <div class="generate__text">
     <div class="generate__title">Generate your QR-code</div>
@@ -160,19 +155,19 @@
      <img src="img/bg-dec/bgqr.png" alt="" class="bg__qr">
      <img src="img/screen/screen7.png" alt="" class="screen7">
      <img src="img/bg-dec/Arrow1.png" alt="" class="arrow">
-     <span class="arrow__text">Scan QR-code</span>
+     <div class="arrow__text">Scan QR-code</div>
     </div>
      <div class="caption__notab">
-         <span class="caption1">notab</span>
-         <span class="caption2">notab</span>
-         <span class="caption3">notab</span>
-         <span class="caption4">notab</span>
+         <div class="caption1">notab</div>
+         <div class="caption2">notab</div>
+         <div class="caption3">notab</div>
+         <div class="caption4">notab</div>
      </div>
-</div>
+    </main>
 
 
 <!-- EASIER -->
-<div class="easier">
+<main class="easier">
     <div class="container">
         <div class="easier__text">
             <div class="easier__title">Easier ordering.
@@ -187,30 +182,44 @@
         <img src="img/easier/easier4.png" alt="" class="easier4">
         </div>
     </div>
-</div>
+</main>
 
 <!-- NOTAB -->
 <img src="img/Notab.png" alt="" class="Notab">
 
 <!-- REGISTRATION -->
-<div class="registration">
+<main class="registration">
     <div class="container">
-        <span class="registration__title">Get In Touch</span>
-        <span class="registration__subtitle">Have questions about Noble or just want to say hello?<br>
-            Drop us a line and a member of our team will getback to you shortly.</span>
+        <div class="registration__title">Get In Touch</div>
+        <div class="registration__subtitle">Have questions about Noble or just want to say hello?<br>
+            Drop us a line and a member of our team will getback to you shortly.</div>
             <form class="registration__labels">
-            <input type="text" class="rfield" placeholder="Name" name="name" required>   
+            <label id="name"></label>
+            <input type="text" class="rfield" placeholder="Name" name="name" required>
+            
+            <label id="venuename"></label>
             <input type="text" class="rfield" placeholder="Venue Name" name="venue name" required>
+
+            <label id="venuecity"></label>
             <input type="text" class="rfield" placeholder="Venue City" name="venue city" required>
+           
+            <label id="statecity"></label>
             <input type="text" class="rfield" placeholder="State City" name="state city" required>
+            
+            <label id="email"></label>
             <input type="text" class="rfield" placeholder="Email" name="email" required>
+
+            <label id="subject"></label>
             <input type="text" class="rfield" placeholder="Subject" name="subject" required>
+
+            <label id="message"></label>
             <input type="text"  class="rfield" placeholder="Message" name="message" required>
+            
         <button type="submit" id="btn" >Send</button>
     </form>
 
         <div class="reg__download">
-            <span class="reg__title">DOWNLOAD OUR APP</span>
+            <div class="reg__title">DOWNLOAD OUR APP</div>
             <div class="reg__badges">
             <img src="img/app-store-png-logo-33116.png" alt="" class="badge3">
             <img src="img/google-play-badge.png" alt="" class="badge4">
@@ -220,7 +229,7 @@
             <img src="img/bg-dec/b.e4.png" alt="" class="be4">
             <img src="img/bg-dec/b.e5.png" alt="" class="be5"> 
         </div>
-</div>
+</main>
 
 
 <!-- FOOTER -->
@@ -248,6 +257,7 @@
 </form>
 
 
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 <script src="app.js"></script>
 
 </body>

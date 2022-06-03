@@ -5,7 +5,7 @@ font-size: 18px;
     line-height: 1.4;
     color: #fff;
     background-color: #000;
-    
+    overflow-x: hidden;
 }
 
 *,
@@ -65,18 +65,28 @@ p{
    
 }
 .pep{
+    width: 25px;
+    height: 26px;
     padding-left: 108px;
-    padding-right: 14px;
+    padding-right: 14px; 
+    fill: #fff;
 }
 .login{
     color: #fff;
     border-bottom: 1px solid;
     align-content: center;
 }
-.login:hover{
-    color: red;
-} 
+.autorise{
+    display: flex;
+    align-items: center;
+}
 
+.autorise:hover .pep{
+    fill: #f00;
+} 
+.autorise:hover .login{
+    color: #f00;
+} 
 /* INTRO */
 
 .intro{
@@ -439,6 +449,8 @@ line-height: 1.1;
     z-index: 2;
     top: -270px;
     right: -100px;
+    max-width: 100%; 
+    overflow: hidden;
 }
 .caption3{
     position: absolute;
@@ -451,6 +463,8 @@ line-height: 1.1;
     z-index: 2;
     top: 0px;
     right: -269px;
+    /* max-height: 100%; */
+    overflow: hidden;
 }
 .screen7{
     position: absolute;
@@ -642,16 +656,16 @@ input[name="message"]{
 }
 .footer__year{
 font-family: 'Avenir';
-font-weight: 800, bold;
+font-weight: 800;
 }
 
 .footer__right{
-    max-width: 107px;
     position: absolute;
     right: 130px;
 }
 
 .right__title{
+    font-weight: 800;
     font-family: 'Avenir';
     line-height: 3;
 }
@@ -1343,7 +1357,6 @@ font-size: 24px;
 .generate__title{font-size: 24px;}
 .generate__subtitle{font-size: 16px;}
 .generate__text{top: -330px;}
-.bg__qr{width: 456px;height: 435px;}
 .screen7{width: 181px;height: 364px;}
 .caption__notab{font-size: 60px;}
 .caption1{top: -80px; left: -15px;}
